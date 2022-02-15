@@ -39,7 +39,7 @@ public class CurrencyList extends Fragment {
         lowerSpinner = binding.lowerSpinner;
 
         currencyListViewModel.getData(getViewLifecycleOwner()).observe(getViewLifecycleOwner(),
-                (Observer<List<Currency>>) currencies -> {
+                currencies -> {
                     System.out.println("Hello");
                     for (Currency currency: currencies){
                         System.out.println(currency.getConversion_rate() + " ");
