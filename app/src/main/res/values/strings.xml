@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Currency</string>
+    <string name="you_send">You send</string>
+    <string name="they_get">They get</string>
+    <string name="transfer">Transfer</string>
+</resources>
